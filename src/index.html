@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="uk">
+  @@include('components/head.html', { 'title': 'Головна' })
+  <body>
+    <div class="relative flex min-h-screen flex-col overflow-hidden">
+      @@include('components/header.html', { })
+      <main>
+        <section class="relative overflow-hidden">
+          <img src="./img/hero-bg.webp" alt="Державні послуги в онлайні." class="absolute left-0 top-0 h-full w-full object-cover" />
+          <div class="container relative pb-[65px] pt-[65px] xl:pb-[121px] xl:pt-[96px]">
+            <div>
+              <div class="relative z-10 max-w-[800px]">
+                <div data-aos="fade-up" class="mb-[30px] flex items-center gap-x-[19px]">
+                  <img src="./img/lines.svg" alt="Державні послуги в онлайні." />
+                  <p class="text-sm text-primary sm:text-xl">Державні послуги в онлайні.</p>
+                </div>
+                <h1 data-aos="fade-up" data-aos-delay="100" class="mb-[33px] text-2xl font-extrabold !leading-tight text-white sm:mb-10 sm:text-5xl">Допомога з отриманням та відновленням <span class="text-primary">водійського посвідчення.</span></h1>
+                <ul data-aos="fade-up" data-aos-delay="150" class="mb-[45px] list-disc space-y-[15px] pl-[15px] marker:text-primary sm:space-y-[20px]">
+                  <li class="text-sm font-medium !leading-tight text-white sm:text-lg">Послуги надаються без посередництва.</li>
+                  <li class="text-sm font-medium !leading-tight text-white sm:text-lg">Отримання або розширення категорій водійських прав.</li>
+                  <li class="text-sm font-medium !leading-tight text-white sm:text-lg">Підтримка в урегулюванні питань щодо втрат, арешту або позбавлення волі.</li>
+                  <li class="text-sm font-medium !leading-tight text-white sm:text-lg">Можливість оформлення протягом тижня.</li>
+                </ul>
+                <p data-aos="fade-up" data-aos-delay="200" class="mb-[26px] text-sm text-white sm:text-base">Напишіть для безкоштовної консультації</p>
+                <a
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  href="#"
+                  class="inline-flex h-[49px] items-center justify-center rounded-[2px] border border-transparent bg-primary px-[24px] text-center text-sm text-typo transition-colors duration-500 hover:border-primary hover:bg-transparent hover:text-primary sm:h-[56px] sm:text-lg">
+                  <span>Написати нам</span></a
+                >
+              </div>
+            </div>
+            <div class="absolute -right-40 top-1/2 hidden -translate-y-1/2 xl:block">
+              <img data-aos="fade-left" data-aos-delay="200" src="./img/hero-img.webp" alt="Державні послуги в онлайні" class="h-full w-full" />
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="py-[60px] sm:py-[120px]">
+          <div class="container relative z-10 flex flex-col items-center max-md:space-y-[30px] md:space-x-12 lg:flex-row xl:space-x-[125px]">
+            <div class="shrink-0" data-aos="fade-up">
+              <img src="./img/about-corner.webp" alt="Чим ми займаємось?" class="h-full w-full object-cover" />
+            </div>
+            <div class="space-y-[25px] sm:space-y-10 xl:ml-auto xl:max-w-[600px]">
+              <div data-aos="fade-up" class="relative mb-[35px] sm:mb-[55px]">
+                <h2 class="text-2xl font-extrabold !leading-none text-typo sm:text-4xl">Чим ми займаємось?</h2>
+                <span class="absolute -bottom-[14px] left-0 h-[2px] w-[78px] bg-primary"></span>
+              </div>
+              <p data-aos="fade-up" class="text-typo-light text-sm !leading-normal sm:text-lg">
+                Ми не вимагаємо передоплати, віримо в наших клієнтів і демонструємо свою професійну компетентність. Наша служба зворотного зв'язку працює цілодобово, щоб кожен клієнт міг отримати вичерпні відповіді на свої запитання. Наші професійні
+                консультанти готові надати всю необхідну інформацію.
+              </p>
+              <div data-aos="fade-up">
+                <p class="text-typo-dark mb-[30px] text-lg font-bold lg:text-xl">До нас звертаються якщо:</p>
+                <ul class="list-disc space-y-3 pl-[15px] marker:text-primary">
+                  <li class="text-sm sm:text-lg">Відсутність часу для візиту в автошколу.</li>
+                  <li class="text-sm sm:text-lg">Проблеми зі здачею екзаменів</li>
+                  <li class="text-sm sm:text-lg">Пошкодили водійське посвідчення</li>
+                  <li class="text-sm sm:text-lg">Втрата документа</li>
+                  <li class="text-sm sm:text-lg">Потреба у відкритті відсутніх категорій</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="relative bg-[#FAFAFA] pb-[60px] pt-10 sm:pb-[120px] sm:pt-[80px]">
+          <img src="./img/white-bg.webp" alt="Послуги" class="absolute left-0 top-0 h-full w-full object-cover" />
+          <div class="container">
+            <div data-aos="fade-up" class="mb-[55px] sm:mb-[75px] flex max-sm:justify-center">
+              <div class="relative">
+                <h2 class="text-2xl font-extrabold !leading-none text-typo sm:text-4xl">Послуги</h2>
+                <span class="absolute -bottom-[14px] left-0 h-[2px] w-full bg-primary"></span>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-x-[12px] gap-y-[12px] max-sm:justify-center sm:gap-x-[30px] lg:grid-cols-4">
+              <div data-aos="fade-up" class="flex h-full flex-col bg-white px-2.5 pb-5 pt-5 sm:pb-[25px]">
+                <img src="./img/services-1.webp" alt="Категорія A1 A" class="mb-[15px] block w-full object-contain sm:mb-5 sm:h-[177px]" />
+                <div class="flex flex-col sm:h-full">
+                  <h3 class="text-typo-dark mb-[15px] text-xs font-bold leading-relaxed max-sm:text-center sm:mb-5 sm:text-xl">Категорія A1, A</h3>
+                  <div class="hidden sm:block">
+                    <p class="mb-5 text-sm !leading-snug"><span class="text-primary">Категорія А1</span> дозволяє керувати мопедами, моторолерами і скутерами з об'ємом двигуна до 50 куб. см або потужністю електродвигуна до 4 кВт;</p>
+                    <p class="mb-5 text-sm !leading-snug"><span class="text-primary">Категорія А</span> - мотоцикли, мопеди, моторолери і скутери з об'ємом двигуна БІЛЬШЕ 50 куб. см.</p>
+                  </div>
+                  <ul class="hidden grow list-disc pl-4 marker:text-primary sm:block">
+                    <li class="text-sm text-[#515151]">Оплата після отримання</li>
+                    <li class="text-sm text-[#515151]">Найкраща ціна в Україні</li>
+                    <li class="text-sm text-[#515151]">Доставка по Україні</li>
+                  </ul>
+                  <div class="mx-auto inline-flex w-full items-center justify-center border border-transparent bg-primary py-3 transition-colors hover:border-primary hover:bg-white sm:mt-[30px] sm:w-[158px]">
+                    <a href="#" class="text-typo-dark text-sm sm:text-base">Написати нам</a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" class="flex h-full flex-col bg-white px-2.5 pb-5 pt-5 sm:pb-[25px]">
+                <img src="./img/services-2.webp" alt="Категорія, B1, B" class="mb-[15px] block w-full object-contain sm:mb-5 sm:h-[177px]" />
+                <div class="flex flex-col sm:h-full">
+                  <h3 class="text-typo-dark mb-[15px] text-xs font-bold leading-relaxed max-sm:text-center sm:mb-5 sm:text-xl">Категорія B1, B</h3>
+                  <div class="hidden sm:block">
+                    <p class="mb-5 text-sm !leading-snug"><span class="text-primary">Категорія B1</span> - дає змогу керувати трициклами і квадроциклами масою до 400 кг.</p>
+                    <p class="mb-5 text-sm !leading-snug"><span class="text-primary">Категорія B</span> -найбільш масова категорія, з якою можна керувати автомобілями масою до 3500 кг і з кількістю пасажирських місць до 8</p>
+                  </div>
+                  <ul class="hidden grow list-disc pl-4 marker:text-primary sm:block">
+                    <li class="text-sm text-[#515151]">Оплата після отримання</li>
+                    <li class="text-sm text-[#515151]">Найкраща ціна в Україні</li>
+                    <li class="text-sm text-[#515151]">Доставка по Україні</li>
+                  </ul>
+                  <div class="mx-auto inline-flex w-full items-center justify-center border border-transparent bg-primary py-3 transition-colors hover:border-primary hover:bg-white sm:mt-[30px] sm:w-[158px]">
+                    <a href="#" class="text-typo-dark text-sm sm:text-base">Написати нам</a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" class="flex h-full flex-col bg-white px-2.5 pb-5 pt-5 sm:pb-[25px]">
+                <img src="./img/services-3.webp" alt="Категорія C1, C, CE" class="mb-[15px] block w-full object-contain sm:mb-5 sm:h-[177px]" />
+                <div class="flex flex-col sm:h-full">
+                  <h3 class="text-typo-dark mb-[15px] text-xs font-bold leading-relaxed max-sm:text-center sm:mb-5 sm:text-xl">Категорія C1, C, CE</h3>
+                  <div class="hidden sm:block">
+                    <p class="mb-5 text-sm !leading-snug"><span class="text-primary">Категорія С1</span> - дає право водити "легкі" вантажівки масою від 3.5 до 7.5 тонн.</p>
+                    <p class="mb-5 text-sm !leading-snug"><span class="text-primary">C</span> - "основна" вантажна категорія.</p>
+                    <p class="mb-5 text-sm !leading-snug"><span class="text-primary">CE</span> - найбільш прибуткова вантажна категорія для водіїв</p>
+                  </div>
+                  <ul class="hidden grow list-disc pl-4 marker:text-primary sm:block">
+                    <li class="text-sm text-[#515151]">Оплата після отримання</li>
+                    <li class="text-sm text-[#515151]">Найкраща ціна в Україні</li>
+                    <li class="text-sm text-[#515151]">Доставка по Україні</li>
+                  </ul>
+                  <div class="mx-auto inline-flex w-full items-center justify-center border border-transparent bg-primary py-3 transition-colors hover:border-primary hover:bg-white sm:mt-[30px] sm:w-[158px]">
+                    <a href="#" class="text-typo-dark text-sm sm:text-base">Написати нам</a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" class="flex h-full flex-col bg-white px-2.5 pb-5 pt-5 sm:pb-[25px]">
+                <img src="./img/services-4.webp" alt="Категорія D1, D" class="mb-[15px] block w-full object-contain sm:mb-5 sm:h-[177px]" />
+                <div class="flex flex-col sm:h-full">
+                  <h3 class="text-typo-dark mb-[15px] text-xs font-bold leading-relaxed max-sm:text-center sm:mb-5 sm:text-xl">Категорія D1, D</h3>
+                  <div class="hidden sm:block">
+                    <p class="mb-5 text-sm !leading-snug"><span class="text-primary">Категорія D1</span> перевезення не більше 16. Право на керування надається з 21 років.</p>
+                    <p class="mb-5 text-sm !leading-snug">В категорію “D” входять призначені для перевезення пасажирів автобуси, в яких кількість місць для сидіння, крім сидіння водія, більше 16.</p>
+                  </div>
+                  <ul class="hidden grow list-disc pl-4 marker:text-primary sm:block">
+                    <li class="text-sm text-[#515151]">Оплата після отримання</li>
+                    <li class="text-sm text-[#515151]">Найкраща ціна в Україні</li>
+                    <li class="text-sm text-[#515151]">Доставка по Україні</li>
+                  </ul>
+                  <div class="mx-auto inline-flex w-full items-center justify-center border border-transparent bg-primary py-3 transition-colors hover:border-primary hover:bg-white sm:mt-[30px] sm:w-[158px]">
+                    <a href="#" class="text-typo-dark text-sm sm:text-base">Написати нам</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="relative bg-cover bg-no-repeat pb-[60px] pt-10 sm:pt-[60px]" style="background-image: url(&quot;./img/green-bg.webp&quot;)">
+          <div class="container">
+            <div data-aos="fade-up" class="relative mb-[55px] sm:mb-[75px]">
+              <h2 class="text-2xl font-extrabold !leading-none text-typo sm:text-4xl">Як ми працюємо</h2>
+              <span class="bg-typo-dark absolute -bottom-[14px] left-0 h-[2px] w-[78px]"></span>
+            </div>
+            <div data-aos="fade-up" class="default-slider w-full lg:overflow-hidden">
+              <div class="default-slider-wrapper flex w-full">
+                <div class="default-slider-slide flex shrink-0 flex-col items-center rounded-[5px] bg-white px-5 py-7">
+                  <img src="./img/icon-1.webp" alt="Будь ласка, зв'яжіться з нами через зручний для вас месенджер." class="mb-10" />
+                  <h3 class="text-typo-dark text-center text-base font-semibold !leading-snug">Будь ласка, зв'яжіться з нами через зручний для вас месенджер.</h3>
+                </div>
+                <div class="default-slider-slide flex shrink-0 flex-col items-center rounded-[5px] bg-white px-5 py-7">
+                  <img src="./img/icon-2.webp" alt="Підготовлюються документи" class="mb-10" />
+                  <h3 class="text-typo-dark text-center text-base font-semibold !leading-snug">Підготовлюються документи.</h3>
+                </div>
+                <div class="default-slider-slide flex shrink-0 flex-col items-center rounded-[5px] bg-white px-5 py-7">
+                  <img src="./img/icon-3.webp" alt="Надсилаємо документи через Нову Пошту." class="mb-10" />
+                  <h3 class="text-typo-dark text-center text-base font-semibold !leading-snug">Надсилаємо документи через Нову Пошту.</h3>
+                </div>
+                <div class="default-slider-slide flex shrink-0 flex-col items-center rounded-[5px] bg-white px-5 py-7">
+                  <img src="./img/icon-4.webp" alt="Перевіряєте документи та оплачуєте замовлення." class="mb-10" />
+                  <h3 class="text-typo-dark text-center text-base font-semibold !leading-snug">Перевіряєте документи та оплачуєте замовлення.</h3>
+                </div>
+              </div>
+            </div>
+            <div
+              class="default-slider-pagination mt-[30px] flex justify-center space-x-[30px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[3px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 [&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:bg-white [&>.swiper-pagination-bullet]:opacity-90"></div>
+          </div>
+        </section>
+
+        <section id="comments">
+          <div class="container py-[60px] lg:py-[120px]">
+            <div class="flex flex-col max-lg:items-center lg:flex-row lg:space-x-[60px] xl:space-x-[132px]">
+              <div data-aos="fade-up" class="w-310px] shrink-0 pt-5 max-lg:mb-10">
+                <div data-aos="fade-up" class="mb-[55px] flex max-sm:justify-center">
+                  <div class="relative">
+                    <h2 class="text-2xl font-extrabold !leading-tight text-typo max-lg:text-center sm:text-4xl">Відгуки наших <br> клієнтів</h2>
+                    <span class="bg-typo-dark absolute -bottom-[14px] left-0 h-[2px] w-full lg:w-[78px]"></span>
+                  </div>
+                </div>
+                <div class="flex space-x-[25px] max-lg:justify-center">
+                  <button class="quotes-prev group flex h-10 w-[61px] items-center justify-center rounded-[2px] border border-t-transparent bg-primary transition-colors hover:border-primary hover:bg-white" type="button" aria-label="Попередній слайд">
+                    <svg class="h-5 w-8 text-white transition-colors group-hover:text-primary">
+                      <use href="./sprites/sprite.svg#icon-arrow-2"></use>
+                    </svg>
+                  </button>
+                  <button class="quotes-next group flex h-10 w-[61px] items-center justify-center rounded-[2px] border border-t-transparent bg-primary transition-colors hover:border-primary hover:bg-white" type="button" aria-label="Наступний слайд">
+                    <svg class="h-5 w-8 rotate-180 text-white transition-colors group-hover:text-primary">
+                      <use href="./sprites/sprite.svg#icon-arrow-2"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div data-aos="fade-up" class="quotes-slider w-full overflow-hidden">
+                <div class="quotes-slider-wrapper flex">
+                  <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
+                    <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
+                    <div class="mb-[22.5px] flex items-center gap-x-[13px]">
+                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <div class="relative w-full py-[15px]">
+                        <p class="text-typo-dark w-full text-base font-bold !leading-snug">Сергій А.</p>
+                        <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
+                      </div>
+                    </div>
+                    <p class="text-typo-light text-sm !leading-normal">Дружина кілька разів провалила іспит у місті, зрештою звернувся до вас по допомогу, величезне вам спасибі, а дружина буде далі підвищувати навички водіння, але вже на своїй машині</p>
+                  </div>
+                  <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
+                    <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
+                    <div class="mb-[22.5px] flex items-center gap-x-[13px]">
+                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <div class="relative w-full py-[15px]">
+                        <p class="text-typo-dark w-full text-base font-bold !leading-snug">Сергій А.</p>
+                        <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
+                      </div>
+                    </div>
+                    <p class="text-typo-light text-sm !leading-normal">Дружина кілька разів провалила іспит у місті, зрештою звернувся до вас по допомогу, величезне вам спасибі, а дружина буде далі підвищувати навички водіння, але вже на своїй машині</p>
+                  </div>
+                  <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
+                    <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
+                    <div class="mb-[22.5px] flex items-center gap-x-[13px]">
+                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <div class="relative w-full py-[15px]">
+                        <p class="text-typo-dark w-full text-base font-bold !leading-snug">Сергій А.</p>
+                        <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
+                      </div>
+                    </div>
+                    <p class="text-typo-light text-sm !leading-normal">Дружина кілька разів провалила іспит у місті, зрештою звернувся до вас по допомогу, величезне вам спасибі, а дружина буде далі підвищувати навички водіння, але вже на своїй машині</p>
+                  </div>
+                  <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
+                    <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
+                    <div class="mb-[22.5px] flex items-center gap-x-[13px]">
+                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <div class="relative w-full py-[15px]">
+                        <p class="text-typo-dark w-full text-base font-bold !leading-snug">Сергій А.</p>
+                        <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
+                      </div>
+                    </div>
+                    <p class="text-typo-light text-sm !leading-normal">Дружина кілька разів провалила іспит у місті, зрештою звернувся до вас по допомогу, величезне вам спасибі, а дружина буде далі підвищувати навички водіння, але вже на своїй машині</p>
+                  </div>
+                  <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
+                    <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
+                    <div class="mb-[22.5px] flex items-center gap-x-[13px]">
+                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <div class="relative w-full py-[15px]">
+                        <p class="text-typo-dark w-full text-base font-bold !leading-snug">Сергій А.</p>
+                        <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
+                      </div>
+                    </div>
+                    <p class="text-typo-light text-sm !leading-normal">Дружина кілька разів провалила іспит у місті, зрештою звернувся до вас по допомогу, величезне вам спасибі, а дружина буде далі підвищувати навички водіння, але вже на своїй машині</p>
+                  </div>
+                  <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
+                    <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
+                    <div class="mb-[22.5px] flex items-center gap-x-[13px]">
+                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <div class="relative w-full py-[15px]">
+                        <p class="text-typo-dark w-full text-base font-bold !leading-snug">Сергій А.</p>
+                        <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
+                      </div>
+                    </div>
+                    <p class="text-typo-light text-sm !leading-normal">Дружина кілька разів провалила іспит у місті, зрештою звернувся до вас по допомогу, величезне вам спасибі, а дружина буде далі підвищувати навички водіння, але вже на своїй машині</p>
+                  </div>
+                </div>
+                <div
+                  class="max-sm:hidden  quotes-pagination mt-[40px] flex justify-center space-x-[20px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[3px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 [&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:bg-gray-200 [&>.swiper-pagination-bullet]:opacity-90"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contacts" class="relative bg-cover bg-no-repeat py-[40px] sm:py-[80px]" style="background-image: url(&quot;./img/white-bg.webp&quot;)">
+          <div class="container flex flex-col-reverse items-center">
+            <img src="./img/bottom-car.webp" alt="Напішить нам шоб дізнатись подробиці" class="-right-[16%] top-1/2 max-lg:mt-[28px] lg:absolute lg:-translate-y-1/2 xl:right-[3%]" />
+            <div class="max-w-[560px] lg:mr-auto">
+              <div data-aos="fade-up" class="mb-[30px] flex max-sm:justify-center sm:mb-[55px]">
+                <div class="relative">
+                  <h2 class="text-2xl font-extrabold !leading-tight text-typo sm:text-4xl"><span class="text-primary">Напішить нам</span> шоб дізнатись подробиці</h2>
+                  <span class="bg-typo-dark absolute -bottom-[14px] left-0 h-[2px] w-full lg:w-[78px]"></span>
+                </div>
+              </div>
+              <div class="mb-[18px] sm:mb-10">
+                <p data-aos="fade-up" class="text-typo-dark mb-[26px] text-xl font-semibold !leading-snug">Безкоштовна консультація 24/7</p>
+                <p data-aos="fade-up" class="text-typo-dark text-base !leading-snug">Щоб з нами зв'язатись натисніть на зручний мессенджер</p>
+              </div>
+              <div data-aos="fade-up" class="flex flex-col items-center gap-x-5 max-sm:space-y-5 sm:flex-row">
+                <a href="#" class="flex h-[70px] w-full max-w-none items-center justify-center gap-x-[15px] rounded-xl bg-[#6F3FAA] transition-opacity hover:opacity-80 sm:h-[76px] sm:max-w-[270px]" title="Vider">
+                  <span class="text-center text-xl font-semibold !leading-snug text-white sm:text-3xl">Viber</span>
+                  <svg class="size-7">
+                    <use href="./sprites/sprite.svg#icon-vb"></use>
+                  </svg>
+                </a>
+                <a href="#" class="flex h-[70px] w-full max-w-none items-center justify-center gap-x-[15px] rounded-xl bg-[#29A9EB] transition-opacity hover:opacity-80 sm:h-[76px] sm:max-w-[270px]" title="Telegram">
+                  <span class="text-center text-xl font-semibold !leading-snug text-white sm:text-3xl">Telegram</span>
+                  <svg class="size-7 text-white">
+                    <use href="./sprites/sprite.svg#icon-tg"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      @@include('components/footer.html', { }) @@include('components/modal.html', { })
+    </div>
+    <script type="module" crossorigin src="./js/app.min.js"></script>
+  </body>
+</html>
