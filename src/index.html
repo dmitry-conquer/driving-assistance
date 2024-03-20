@@ -68,7 +68,7 @@
         <section id="services" class="relative bg-[#FAFAFA] pb-[60px] pt-10 sm:pb-[120px] sm:pt-[80px]">
           <img src="./img/white-bg.webp" alt="Послуги" class="absolute left-0 top-0 h-full w-full object-cover" />
           <div class="container">
-            <div data-aos="fade-up" class="mb-[55px] sm:mb-[75px] flex max-sm:justify-center">
+            <div data-aos="fade-up" class="mb-[55px] flex max-sm:justify-center sm:mb-[75px]">
               <div class="relative">
                 <h2 class="text-2xl font-extrabold !leading-none text-typo sm:text-4xl">Послуги</h2>
                 <span class="absolute -bottom-[14px] left-0 h-[2px] w-full bg-primary"></span>
@@ -189,7 +189,10 @@
               <div data-aos="fade-up" class="w-310px] shrink-0 pt-5 max-lg:mb-10">
                 <div data-aos="fade-up" class="mb-[55px] flex max-sm:justify-center">
                   <div class="relative">
-                    <h2 class="text-2xl font-extrabold !leading-tight text-typo max-lg:text-center sm:text-4xl">Відгуки наших <br> клієнтів</h2>
+                    <h2 class="text-2xl font-extrabold !leading-tight text-typo max-lg:text-center sm:text-4xl">
+                      Відгуки наших <br />
+                      клієнтів
+                    </h2>
                     <span class="bg-typo-dark absolute -bottom-[14px] left-0 h-[2px] w-full lg:w-[78px]"></span>
                   </div>
                 </div>
@@ -277,7 +280,84 @@
                   </div>
                 </div>
                 <div
-                  class="max-sm:hidden  quotes-pagination mt-[40px] flex justify-center space-x-[20px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[3px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 [&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:bg-gray-200 [&>.swiper-pagination-bullet]:opacity-90"></div>
+                  class="quotes-pagination mt-[40px] flex justify-center space-x-[20px] max-sm:hidden [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[3px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 [&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:bg-gray-200 [&>.swiper-pagination-bullet]:opacity-90"></div>
+              </div>
+            </div>
+
+            <div class="container mt-[60px] md:mt-[120px]">
+              <div data-aos="fade-up" class="mx-auto max-w-[1350px] px-4">
+                <div class="relative">
+                  <button
+                    class="comments-prev group absolute left-0 top-1/2 z-10 flex size-[32px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-transparent bg-white shadow-md transition-colors hover:border-primary hover:bg-primary sm:size-[50px] [&.swiper-button-lock]:hidden"
+                    type="button"
+                    aria-label="Попередній слайд">
+                    <svg class="size-6 rotate-180 text-typo transition-colors group-hover:text-white">
+                      <use href="./sprites/sprite.svg#icon-arrow"></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="comments-next group absolute right-0 top-1/2 z-10 flex size-[32px] -translate-y-1/2 translate-x-1/2 items-center justify-center rounded-full border border-transparent bg-white shadow-md transition-colors hover:border-primary hover:bg-primary sm:size-[50px] [&.swiper-button-lock]:hidden"
+                    type="button"
+                    aria-label="Наступний слайд">
+                    <svg class="size-6 text-typo transition-colors group-hover:text-white">
+                      <use href="./sprites/sprite.svg#icon-arrow"></use>
+                    </svg>
+                  </button>
+                  <div class="comments-slider w-full overflow-hidden">
+                    <div class="comments-slider-wrapper flex w-full">
+                      <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                        <a data-fslightbox href="./videos/1.MOV" class="group relative block h-full w-full overflow-hidden">
+                          <img src="./img/com/1.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                        </a>
+                      </div>
+                      <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                        <a data-fslightbox href="./videos/2.mp4" class="group relative block h-full w-full overflow-hidden">
+                          <img src="./img/com/2.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                        </a>
+                      </div>
+                      <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                        <a data-fslightbox href="./videos/3.mp4" class="group relative block h-full w-full overflow-hidden">
+                          <img src="./img/com/3.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                        </a>
+                      </div>
+                      <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                        <a data-fslightbox href="./videos/4.mp4" class="group relative block h-full w-full overflow-hidden">
+                          <img src="./img/com/4.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                        </a>
+                      </div>
+                      <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                        <a data-fslightbox href="./videos/5.mp4" class="group relative block h-full w-full overflow-hidden">
+                          <img src="./img/com/5.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                        </a>
+                      </div>
+                      <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                        <a data-fslightbox href="./videos/6.mp4" class="group relative block h-full w-full overflow-hidden">
+                          <img src="./img/com/6.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                        </a>
+                      </div>
+                      <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                        <a data-fslightbox href="./videos/7.MP4" class="group relative block h-full w-full overflow-hidden">
+                          <img src="./img/com/7.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                        </a>
+                      </div>
+                      <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                        <a data-fslightbox href="./videos/8.MP4" class="group relative block h-full w-full overflow-hidden">
+                          <img src="./img/com/8.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="pagination-comments mt-[40px] flex justify-center space-x-[20px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[3px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 [&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:bg-gray-200 [&>.swiper-pagination-bullet]:opacity-90"></div>
               </div>
             </div>
           </div>
